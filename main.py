@@ -20,7 +20,6 @@ if not file_exists(arq):
 #2. Ler o Arquivo
 content = read_file(arq)
 
-
 #3. Calcular a media
 
 #   Inicializando com o primeiro aluno
@@ -42,7 +41,6 @@ for line in content[1:]:
     elif media == largest_avg:
         student_major.append(name)
 
-
     if media < smallest_avg:
         smallest_avg =  media
         student_minor = [name]
@@ -52,7 +50,5 @@ for line in content[1:]:
 print(f'O aluno com maior nota: {", ".join(student_major)}, {largest_avg}')
 print(f'O aluno com menor nota: {", ".join(student_minor)}, {smallest_avg}')
 
-
 #4. Cria um novo arquivo com os alunos e sua respectiva media
 save_averages(content)
-
