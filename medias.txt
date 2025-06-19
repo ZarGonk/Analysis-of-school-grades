@@ -1,0 +1,10 @@
+Ana;7.35
+Bruno;8.30
+Carla;6.10
+Daniel;8.65
+Eduarda;5.85
+Fernando;9.90
+Gabriela;7.00
+Henrique;5.00
+Isabela;9.20
+João;5.00
